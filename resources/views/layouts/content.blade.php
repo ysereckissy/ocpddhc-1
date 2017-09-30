@@ -1,11 +1,4 @@
-@extends('layouts.master')
-
-@section('carousel')
- @include('layouts.carousel')
-@endsection
-
-@section('content')
-    <!-- Three columns of text below the carousel -->
+<!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
           <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
@@ -67,4 +60,3 @@
       </div>
 
       <hr class="featurette-divider">
-@endsection
